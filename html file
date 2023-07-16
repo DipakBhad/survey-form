@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <form action="" id = "form">
+        <div class="heading text centre">
+            <h1> Survey Form </h1>
+        </div>
+        <div class="info">
+            <fieldset>
+                <legend class="text-center"><h3>Personal Details</h3> </legend>
+                <div class="form item">
+                    <label for="name">Name: </label>
+                    <input type="text" name="user_name" id="name label" placeholder="enter your name">
+                </div>
+                <br>
+                <div class="form item">
+                    <label for="address">Address: </label>
+                    <input type="text" name="user_address" id="address label" placeholder="enter your address">
+                </div>
+                <br>
+                <div class="form item">
+                    <label for="name">Email: </label>
+                    <input type="email" name="user_Email" id="email label" placeholder="enter your email">
+                </div>
+                <br>
+                <div class="form item">
+                    <label for="name">Mobile Number: </label>
+                    <input type="phone" name="user_mobile number" id="number label" placeholder="enter your number">
+                </div>
+                <br>
+                <div class="form item">
+                    <label for="name">Select your gender: </label>
+                    <select name="user_gender" id="gender label">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="prefer not to say">prefer not to say</option>
+                    </select>
+                </div>
+            </fieldset>
+                    <fieldset>
+                        <legend class="end"><h3>Additional Information</h3></legend>
+                        <div class="end">
+                            <label for="background">Enter your background Information</label>
+                            <br>
+                            <textarea name="background Information" id="background" placeholder="Enter your background information" rows="10"></textarea>
+                            <br><br>
+                            <input type="SUBMIT" value="SUBMIT">
+                        </div>
+                    </fieldset>           
+        </div>
+    </form>
+    
+</body>
+</html>
